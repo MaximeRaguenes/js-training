@@ -9,7 +9,21 @@
  */
 
 // Your code :
-
+function multiply(num1, num2) {
+    let res = 0;
+    let i = 0;
+    if (num1 > 0) {
+        while (num1 > i) {
+            res = res + num2;
+            i++;
+        } return res;
+    } else {
+        while (num1 < i) {
+            res = res + num2;
+            i--;
+        } return -res;
+    }
+}
 //* Begin of tests
 const assert = require('assert')
 

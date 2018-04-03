@@ -6,6 +6,15 @@
  *
  */
 
+function total(numbers) {
+    let i = 0;
+    let num = 0;
+    while(numbers.length > i) {
+        num += numbers[i];
+        i++;
+    }
+    return num;
+} 
 
 //* Begin of tests
 const assert = require('assert')
